@@ -1155,6 +1155,13 @@ border-bottom: 1px solid red;
 .text_section2{
   width: 100%;
 }
+.Section_8{
+  padding: 20px 10px;
+
+}
+.main_conten{
+  padding: 0px 10px;
+}
 }
 @media screen and (max-width: 530px) {
   .Image_Block{
@@ -1167,6 +1174,9 @@ border-bottom: 1px solid red;
       justify-content: center;
       align-items: center;
       flex: 0 1 100%;
+  }
+  .text_section2{
+    text-align: center;
   }
 }
 @media screen and (max-width: 450px) {
@@ -1185,6 +1195,12 @@ width: 100%;
 font-size: 26px
 }
 .col1_1{
+  width: 90%;
+}
+.row_text{
+ font-size: 13px;
   width: 100%;
 }
+
+
 }
