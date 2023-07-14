@@ -447,8 +447,8 @@ gap: 6px;
 color: white;
 }
 .button_with_svg:hover{
-  background-color: aqua;
-  color: black;
+  background-color: rgb(69, 134, 134);
+  color: white;
 }
 
 /*------------------------------------Section 4----------------------------------------*/
@@ -468,8 +468,8 @@ color: white;
  color: white;
 }
 .button_with_svg_sec4:hover{
-  background-color: aqua;
-  color:black;
+  background-color: rgb(69, 134, 134);
+  color:white;
 }
 /*------------------------------------Section 5----------------------------------------*/
 /*-------------------------------------------------------------------------------------*/
@@ -784,7 +784,16 @@ border-bottom: 1px solid red;
 }
 /*----------------------------Footer Ended-----------------------*/
 
-/*---------------------------------------------------------------Responsiveness COde----------------------------*/
+/*--------------Some fIXES8*-------*/
+.our_p_block{
+  width: 115px;
+}
+.Sub_nav_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px  0px;
+}
+/*---------------------------------------------Responsiveness COde----------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
 
@@ -803,6 +812,41 @@ border-bottom: 1px solid red;
   .Image_Block{
     gap: 100px;
   }
+}
+@media screen and (max-width:1240px){
+  .nav_bar_main_container{
+    display: none;
+  }
+  .nav_bar_main_container1{
+    visibility: visible;
+  }
+}
+@media screen and (max-width:1230px) {
+  .Lower_Container,.Upper_Container{
+    gap: 12px;
+  }
+}
+@media screen and (max-width:1193px) {
+  .Image_Block{
+    gap: 40px;
+  }
+  .Image_Block_sec_4{
+    gap: 40px;
+  }
+
+  .block{
+    max-width: 300px;
+  }
+  .fixed{
+    max-width: 330px;
+  }
+  .main_container{
+    max-width: 100%;
+  }
+  .main_conten{
+    max-width: 100%;
+  }
+
 }
 @media screen and (max-width: 1140px) {
 
@@ -827,12 +871,7 @@ border-bottom: 1px solid red;
   .Lower_Container,.Upper_Container{
     gap: 5px;
   }
-  .nav_bar_main_container{
-    display: none;
-  }
-  .nav_bar_main_container1{
-    visibility: visible;
-  }
+
   .block{
     max-width: 300px;
   }
@@ -868,6 +907,22 @@ border-bottom: 1px solid red;
   .block{
     max-width: 300px;
   }
+}
+@media screen and (max-width :1025px) {
+  .Image_Block_sec_4{
+    align-items: center ;
+    gap: 15px;
+  }
+  .Image_Block{
+    align-items: center;
+  }
+  .image{
+    object-fit: contain;
+        width: 450px;
+    height: 1005;
+  }
+
+  
 }
 @media screen and (max-width: 1000px) {
 
@@ -908,6 +963,13 @@ border-bottom: 1px solid red;
   }
   .Image_Block_sec_4{
     gap: 15px;
+  }
+}
+@media screen and (max-width=910px) {
+
+  .Upper_element{
+  width: 100%;
+  padding: 0px 10px;
   }
 }
 @media screen and (max-width: 899px) {
@@ -1028,6 +1090,18 @@ border-bottom: 1px solid red;
     gap: 20px;
   }
 }
+@media screen and (max-width:765px) {
+  .block{
+    max-width: 270px;
+  }
+  .gaps{
+    width: 100%;
+  }
+  .uper_portion,.bold_text,.simple_text,.lower_text_portion{
+    width: 100%;
+  }
+  
+}
 @media screen and (max-width: 755px) {
 
   .divider{
@@ -1071,10 +1145,23 @@ border-bottom: 1px solid red;
     justify-content: center;
   }
 }
+@media screen and (max-width:741px) {
+  .block{
+    width: 250px;
+  }
+  .main_container{
+    gap: 10px;
+  }
+  
+}
 @media screen and (max-width: 737px) {
 
   .Section_1,.butn_sec_2,.Section_3,.Section_4,.Section_5{
     max-width: 100%;
+  }
+  .UPper_portion{
+    gap: 5px;
+    flex-wrap: wrap;
   }
   .Upper_Container,.Lower_Container{
     gap: 20px;
@@ -1138,6 +1225,19 @@ border-bottom: 1px solid red;
     width: 100%;
     border-radius: 50px;
   }
+  .Lower_portion{
+    justify-content: center;
+    align-items: center;
+  }
+  .text_section2{
+    text-align: center;
+  }
+  .left_m{
+    height: 100%;
+  }
+  .UPper_portion{
+    align-items: flex-start;
+  }
 }
 @media screen and (max-width: 549px) {
   .Image_Block{
@@ -1197,21 +1297,25 @@ width: 100%;
 .sub_content_text_sec5{
   width: 100%;
 }
+.contianer_section_7{
+  width: 100%;
+}
 .Second_Text{
   max-width: 350px;
-font-size: 26px
 }
 .col1_1{
   width: 90%;
 }
 .row_text{
- font-size: 13px;
   width: 100%;
 }
 Section_8{
   padding: 20px 10px;
+
 }
 .main_conten{
   padding: 0px 10px;
 }
+
+
 }
