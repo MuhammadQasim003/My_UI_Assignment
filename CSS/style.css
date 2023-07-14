@@ -446,15 +446,15 @@ flex-direction: column;
 gap: 6px;
 color: white;
 }
-.button_with_svg:hover{
+/*.button_with_svg:hover{
   background-color: rgb(69, 134, 134);
   color: white;
-}
+}*/
 
 /*------------------------------------Section 4----------------------------------------*/
 /*-------------------------------------------------------------------------------------*/
 .Section_4{
-  background-color: #437ef7;
+  background-color: #2B63D9;
 }
 .Image_Block_sec_4{
   gap: 80px;
@@ -464,13 +464,14 @@ color: white;
 }
 .button_with_svg_sec4{
  gap: 6px;
- background-color: #7f99ca;
+ background-color: #437EF7;
  color: white;
 }
+/*
 .button_with_svg_sec4:hover{
   background-color: rgb(69, 134, 134);
   color:white;
-}
+}*/
 /*------------------------------------Section 5----------------------------------------*/
 /*-------------------------------------------------------------------------------------*/
 
@@ -877,7 +878,9 @@ border-bottom: 1px solid red;
   }
 }
 @media screen and (max-width: 1130px) {
- 
+ .button_section_2{
+  display: none;
+ }
   .fixed{
     max-width: 330px;
   }
