@@ -1291,6 +1291,10 @@ border-bottom: 1px solid red;
 .Upper_element{
 width: 100%;
 }
+.downtext{
+  justify-items: left;
+  align-items: flex-start;
+}
 .col1{
   width: 100%;
 }
@@ -1309,7 +1313,7 @@ width: 100%;
 .row_text{
   width: 100%;
 }
-Section_8{
+.Section_8{
   padding: 20px 10px;
 
 }
