@@ -821,6 +821,9 @@ border-bottom: 1px solid red;
   .nav_bar_main_container1{
     visibility: visible;
   }
+  .button_section_2{
+    display: none;
+  }
 }
 @media screen and (max-width:1230px) {
   .Lower_Container,.Upper_Container{
@@ -1008,6 +1011,7 @@ border-bottom: 1px solid red;
   .nav_bar_main_container1{
     visibility: visible;
   }
+
   .block{
     max-width: 300px;
   }
@@ -1103,6 +1107,7 @@ border-bottom: 1px solid red;
   .uper_portion,.bold_text,.simple_text,.lower_text_portion{
     width: 100%;
   }
+  
   
 }
 @media screen and (max-width: 755px) {
