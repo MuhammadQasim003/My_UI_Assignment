@@ -1305,7 +1305,7 @@ flex: 0 1 30%;
     display: flex;
   }
   .social_icon2{
-    display: none;
+    visibility: hidden;
   }
   .textcontainer1{
     border-radius: 10px;
