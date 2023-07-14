@@ -814,7 +814,7 @@ border-bottom: 1px solid red;
     gap: 100px;
   }
 }
-@media screen and (max-width:1240px){
+@media screen and (max-width:1240px) {
   .nav_bar_main_container{
     display: none;
   }
