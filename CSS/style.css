@@ -1326,6 +1326,12 @@ flex: 0 1 30%;
   .UPper_portion{
     align-items: flex-start;
   }
+  .tab_layout{
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+  }
 }
 @media screen and (max-width: 549px) {
   .Image_Block{
